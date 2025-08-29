@@ -1,12 +1,16 @@
 import React from "react";
 import { FaLinkedin , FaGithub} from "react-icons/fa";
+import logo from "../assets/logo.png";
 function Navbar() {
   return (
     
    
     <div className="flex flex-col gap-7 md:flex-row items-center justify-between py-2 px-4">
     {/* Logo */}
-    <div className="text-xl font-bold">Logo</div>
+    <div className="  w-20 h-20">
+      
+      <img src={logo} alt="" />
+    </div>
   
     {/* Icônes */}
     <div className="flex gap-4 mt-2 text-gray-600 md:mt-0">
