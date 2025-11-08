@@ -26,14 +26,14 @@ export const Technologies = () => {
   return (
     <div>
     <h2 className="text-gray-600 text-4xl text-center my-20">Technologies</h2>
+  
+    {/* === Web Development === */}
     <h3 className="text-gray-600 text-lg text-center mt-2 mb-8">Web Development</h3>
-
-    {/* Web stack */}
     <div className="flex flex-col md:flex-row flex-wrap justify-center gap-10 text-6xl text-gray-600">
-      <TechItem label="Laravel"><FaLaravel className="text-red-500" /></TechItem>
       <TechItem label="React"><FaReact className="text-cyan-400" /></TechItem>
-      <TechItem label="Tailwind"><SiTailwindcss className="text-sky-400" /></TechItem>
+      <TechItem label="Tailwind CSS"><SiTailwindcss className="text-sky-400" /></TechItem>
       <TechItem label="Framer Motion"><SiFramer className="text-pink-500" /></TechItem>
+      <TechItem label="Laravel"><FaLaravel className="text-red-500" /></TechItem>
       <TechItem label="PHP"><FaPhp className="text-indigo-500" /></TechItem>
       <TechItem label="Java"><FaJava className="text-orange-600" /></TechItem>
       <TechItem label="JavaScript"><FaJs className="text-yellow-400" /></TechItem>
@@ -41,18 +41,43 @@ export const Technologies = () => {
       <TechItem label="CSS"><FaCss3Alt className="text-blue-500" /></TechItem>
       <TechItem label="SQL"><FaDatabase className="text-gray-400" /></TechItem>
       <TechItem label="MySQL"><SiMysql className="text-blue-600" /></TechItem>
-      <TechItem label="Postgres"><SiPostgresql className="text-blue-400" /></TechItem>
+      <TechItem label="PostgreSQL"><SiPostgresql className="text-blue-400" /></TechItem>
     </div>
-
-    <h3 className="text-gray-600 text-lg text-center mt-9 mb-8">Data</h3>
-
-    {/* Data stack */}
+  
+    {/* === Data Engineering === */}
+    <h3 className="text-gray-600 text-lg text-center mt-12 mb-8">Data Engineering</h3>
     <div className="flex flex-col md:flex-row flex-wrap justify-center gap-10 text-6xl text-gray-600">
       <TechItem label="Python"><FaPython className="text-yellow-400" /></TechItem>
       <TechItem label="Apache Spark"><SiApachespark className="text-orange-500" /></TechItem>
       <TechItem label="PySpark"><SiApachespark className="text-red-500" /></TechItem>
+      <TechItem label="Hadoop"><SiApachehadoop className="text-blue-500" /></TechItem>
+      <TechItem label="Airflow"><SiApacheairflow className="text-sky-500" /></TechItem>
+      <TechItem label="Databricks"><SiDatabricks className="text-red-600" /></TechItem>
+      <TechItem label="Talend"><SiTalend className="text-orange-400" /></TechItem>
       <TechItem label="Data Warehouse"><MdStorage className="text-blue-400" /></TechItem>
+      <TechItem label="Data Lake"><MdWaterDrop className="text-blue-500" /></TechItem>
+      <TechItem label="Data Quality"><FaChartBar className="text-green-500" /></TechItem>
+    </div>
+  
+    {/* === Cloud Platforms === */}
+    <h3 className="text-gray-600 text-lg text-center mt-12 mb-8">Cloud Platforms</h3>
+    <div className="flex flex-col md:flex-row flex-wrap justify-center gap-10 text-6xl text-gray-600">
+      <TechItem label="Microsoft Azure"><SiMicrosoftazure className="text-blue-500" /></TechItem>
+      <TechItem label="Amazon Web Services (AWS)"><SiAmazonaws className="text-yellow-500" /></TechItem>
+      <TechItem label="Google Cloud Platform"><SiGooglecloud className="text-red-500" /></TechItem>
+    </div>
+  
+    {/* === DevOps & Architecture === */}
+    <h3 className="text-gray-600 text-lg text-center mt-12 mb-8">Architecture & DevOps</h3>
+    <div className="flex flex-col md:flex-row flex-wrap justify-center gap-10 text-6xl text-gray-600">
+      <TechItem label="Git / GitHub"><FaGithub className="text-gray-800" /></TechItem>
+      <TechItem label="GitHub Actions"><SiGithubactions className="text-blue-500" /></TechItem>
+      <TechItem label="Linux"><FaLinux className="text-gray-500" /></TechItem>
+      <TechItem label="Design Patterns"><FaCogs className="text-gray-600" /></TechItem>
+      <TechItem label="Software Architecture"><FaProjectDiagram className="text-indigo-500" /></TechItem>
+      <TechItem label="UML Modeling"><SiUml className="text-purple-500" /></TechItem>
     </div>
   </div>
+  
   )
 }
