@@ -34,7 +34,7 @@ const Hero = () => {
   {/* Texte */}
   <div className="tracking-tight text-center md:text-left text-gray-600">
 
-  <h1 className="text-3xl md:text-5xl font-bold shadow-2xl bg-gradient-to-r from-[#d5c5ff] via-purple-500 to-gray-800 bg-clip-text text-transparent">
+  <h1 className="text-3xl md:text-5xl font-bold shadow-2xs rounded-2xl bg-gradient-to-r from-[#d5c5ff] via-purple-500 to-gray-800 bg-clip-text text-transparent">
  
   <ReactTyped
         strings={[

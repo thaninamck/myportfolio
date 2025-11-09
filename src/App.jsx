@@ -40,9 +40,9 @@ function App() {
         <Education />
         </div>
 
-      <div className="mt-30 mb-20">
+      {/* <div className="mt-30 mb-20">
         <ContactMe />
-      </div>
+      </div> */}
     </>
   );
 }
